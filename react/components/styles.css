@@ -55,3 +55,28 @@
   margin: 10px;
   height: 500px;
 }
+
+@media (max-width:425px){
+  .grid__1,
+  .grid__2,
+  .grid__3,
+  .grid__4{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+ }
+ .grid__item--big{
+  width: 100%;
+  background-color: white;
+  margin: 10px;
+  height: 100%;
+}
+.grid__item--small{
+width: 50%;
+background-color: white;
+margin: 10px;
+height: 100%;
+display: flex;
+}
+}
+
